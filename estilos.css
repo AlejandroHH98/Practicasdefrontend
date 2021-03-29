@@ -21,4 +21,7 @@ body{
 }
 #titulo{
     font: bold 36px verdana, sans-serif;
+    text-shadow: rgb(0, 0,150) 3px 3px 5px; /*text-shadow: ; tiene las mismas
+    similitudes con respecto a su formato de edición que box-shadow: la unica diferencia
+    recae en que text-shadow: ; es utilizada para darle sombra a los textos que estén en "span"*/
 }
