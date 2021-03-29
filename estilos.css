@@ -11,7 +11,8 @@ body{
     border: 1px solid #999999;
     background: #dddddd;
     /*Incorporación de un poder radius*/
-    border-radius: 20px;
+    border-radius: 20px 10px 30px 50px; /*El border radius puede aceptar
+    distintos radios para cada curva del contenedor*/
 }
 #titulo{
     font: bold 36px verdana, sans-serif;
