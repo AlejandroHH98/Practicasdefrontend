@@ -10,19 +10,8 @@ body{
     text-align: center;
     border: 1px solid #999999;
     background: #dddddd;
-    /*Incorporación de un poder radius*/
-    border-radius: 20px 10px 30px 50px; /*El border radius puede aceptar
-    distintos radios para cada curva del contenedor*/
-    /*Agregar una sombra a una caja*/
-    box-shadow: rgb(125, 140, 80) 5px 5px 10px; /*Al utilizar el box-shadow
-    añade una sombra a la caja y utilizando el comando rgb podemos cambiar el color de la sombra
-    los valores "5px" y "5px" sirven para el volumen de la sombra y "10px" para la transparencia
-    los calores pueden cambiar a gusto del programador*/ 
-    background: linear-gradient(top, #c0b1b1, #006699);
-    /*border-image: permite que por medio de una imagen, el cotenido tome el mismo
-    patron que la imagen el numero 29 declara el tamaño de las piezas y strech
-    para distribuir la pieza*/
-    border-image: url(/diamonds.PNG) 29 stretch;
+    /*tranform permite cambiar la posicion y orientacion de un objeto*/
+   transform: translateY(100px) rotate(45deg) scaleY(0.3);
 } 
 #titulo{
     font: bold 36px verdana, sans-serif;
