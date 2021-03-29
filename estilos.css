@@ -23,7 +23,7 @@ body{
     patron que la imagen el numero 29 declara el tamaño de las piezas y strech
     para distribuir la pieza*/
     border-image: url(/diamonds.PNG) 29 stretch;
-}
+} 
 #titulo{
     font: bold 36px verdana, sans-serif;
     text-shadow: rgba(0, 0,0,0.5) 3px 3px 5px; /*text-shadow: ; tiene las mismas
