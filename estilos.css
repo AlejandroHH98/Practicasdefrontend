@@ -19,10 +19,10 @@ body{
     los valores "5px" y "5px" sirven para el volumen de la sombra y "10px" para la transparencia
     los calores pueden cambiar a gusto del programador*/ 
     background: linear-gradient(top, #c0b1b1, #006699);
-    /*La propiedad outline crear un segundo borde para ser mostrado de 
-    lejos y outline-offset da el valor en pixeles del tamaño de ese borde */
-    outline: 2px dashed #000099;
-    outline-offset: 15px;
+    /*border-image: permite que por medio de una imagen, el cotenido tome el mismo
+    patron que la imagen el numero 29 declara el tamaño de las piezas y strech
+    para distribuir la pieza*/
+    border-image: url(/diamonds.PNG) 29 stretch;
 }
 #titulo{
     font: bold 36px verdana, sans-serif;
