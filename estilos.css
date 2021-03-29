@@ -13,6 +13,11 @@ body{
     /*Incorporación de un poder radius*/
     border-radius: 20px 10px 30px 50px; /*El border radius puede aceptar
     distintos radios para cada curva del contenedor*/
+    /*Agregar una sombra a una caja*/
+    box-shadow: rgb(125, 140, 80) 5px 5px 10px; /*Al utilizar el box-shadow
+    añade una sombra a la caja y utilizando el comando rgb podemos cambiar el color de la sombra
+    los valores "5px" y "5px" sirven para el volumen de la sombra y "10px" para la transparencia
+    los calores pueden cambiar a gusto del programador*/ 
 }
 #titulo{
     font: bold 36px verdana, sans-serif;
