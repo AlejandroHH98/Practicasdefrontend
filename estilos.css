@@ -18,6 +18,7 @@ body{
     añade una sombra a la caja y utilizando el comando rgb podemos cambiar el color de la sombra
     los valores "5px" y "5px" sirven para el volumen de la sombra y "10px" para la transparencia
     los calores pueden cambiar a gusto del programador*/ 
+    background: linear-gradient(top, #c0b1b1, #006699);
 }
 #titulo{
     font: bold 36px verdana, sans-serif;
