@@ -10,6 +10,8 @@ body{
     text-align: center;
     border: 1px solid #999999;
     background: #dddddd;
+    /*Incorporación de un poder radius*/
+    border-radius: 20px;
 }
 #titulo{
     font: bold 36px verdana, sans-serif;
