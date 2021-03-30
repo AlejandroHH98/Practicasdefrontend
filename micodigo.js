@@ -9,4 +9,4 @@ a la función "mostraralerta" */
 document.getElementsByTagName('p')[0].onclick=mostraralerta;
 
 }
-window.onload=hacerclic;
+window.onload=hacerclic; //Ejecuta la funcion "hacerclic" cuando el documento se hayan terminado
