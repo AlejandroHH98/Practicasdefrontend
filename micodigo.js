@@ -3,13 +3,10 @@
 dentro del arreglo (primer elemento de texto) será ejecutada y manda a llamar
 a la función "mostraralerta" */
 function hacerclic(){ 
-var lista=document.querySelectorAll("#principal p");/*querySelectorAll retorna todos los elementos que concuerdan con el grupo de selectores
-declarados en parentesis*/
-
-for(var f=0; f<lista.length; f++){ //Bucle for para crear un arreglo de los elementos p
-lista[f].onclick=mostraralerta; //Todos los elementos p dentro del identificador mostrarán un mensaje de alerta
-
-    }
+var lista=document.getElementById("principal").querySelectorAll("p");/* Por medio de getElementById se precisa
+al identificador que queremos y con queryselector el tipo de elemnto que queremos aplicarle una función
+en este caso al elemento "p"*/
+lista[0].onclick=mostraralerta; //Todos los elementos p dentro del identificador mostrarán un mensaje de alerta
 }
 function mostraralerta(){ //Se crea una función "mostraralerta"
 alert('hizo clic'); //y esta mantiene la accion de alerta
