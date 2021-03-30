@@ -5,7 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/micodigo.js"></script>
+    <script>
+        function mostraralerta(){
+            alert("Haz hecho clic");
+        }
+        function hacerclic(){
+            var elemento = document.getElementsByTagName('p')[0];
+            /*Se crea un método addEventListener*/
+            elemento.addEventListener('click', mostraralerta,false); /*addEventListener necesita el nombre del evento, 
+            la funcion que se quiere realizar y el valor booleano que indica cuando el elemento será disparado*/
+        }
+        window.addEventListener('load',hacerclic,false); /*Para este caso el evento se realizará en la ventanda del navecador
+        que al cargarse se ejecurará la función "hacerclic* con un valor falso*/
+    </script>
+    <!--<script src="/micodigo.js"></script>-->
     <link rel="stylesheet" href="/estilos.css">
 </head>
 <body>
